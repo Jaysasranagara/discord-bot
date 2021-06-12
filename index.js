@@ -1,17 +1,7 @@
 const { Client, MessageAttachment, Message } = require('discord.js');
 const client = new Client();
 
-// const sadWords = ["kurang pede", "nyerah", "ga percaya diri", "capek"]
 
-// const attachment = new MessageAttachment ('https://i.imgur.com/ADxrAFS.jpg')
-
-
-
-
-/**
- * The ready event is vital, it means that only _after_ this will your bot start reacting to information
- * received from Discord
- */
  client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}!`)
   })
@@ -103,4 +93,4 @@ const client = new Client();
 
 
 
-client.login('ODUyNTMxODA3MDcyODEzMDg2.YMIMHg.Y1nDawjWD--xLhdHDZBDgRmVQyc');
+client.login('ENTER_TOKEN');
